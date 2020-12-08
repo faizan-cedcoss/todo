@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	    <title>To-do Tast Manager</title>
+	    <style>
+	    	body{
+	    		margin: 0;
+	    		padding: 0;
+	    	}
+	    	.div1{
+	    		width: 100%;
+	    		padding: 50px 0 50px 0;
+	    		text-align: center;
+	    		background-color: #000066;
+	    		color: white;
+	    	}
+	    	.div2{
+	    		width: 100%;
+	    		padding: 50px 0 50px 0;
+	    		text-align: center;
+	    		background-color: #00e6e6;
+	    		color: white;
+	    	}
+	    	.div3,.div4{
+	    		width: 100%;	    		
+	    	}
+	    	.p-style{
+	    		position: relative;
+	    		margin: 0px auto;
+	    		width: 50%;
+	    	}
+	    	.input-style{
+	    		width: 50%;
+	    	}	    	
+	    </style>
+	</head>
+	<body>
+		<div class="div1">
+			<h1 style="color: white">To-Do Utility Software</h1>
+		</div>
+		<div class="div2">
+			<label>Enter the task</label><br><br>
+			<input type="text" name="" id="ques" class="input-style"><br>
+			<button id="add">Add</button>
+		</div>
+		<div  class="div3">
+			<h1>
+				Due Tasks
+			</h1><br>
+			<ul id="todo">
+				
+			</ul>
+		</div>
+		<div  class="div4">
+			<h1>
+				Completed Tasks
+			</h1><br>
+			<ul id="done">
+				
+			</ul>
+		</div>
+		
+		<script src="todo.js"></script>
+	</body>
+</html>
