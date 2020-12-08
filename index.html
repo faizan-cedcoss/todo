@@ -12,20 +12,21 @@
 	    	}
 	    	.div1{
 	    		width: 100%;
-	    		padding: 50px 0 50px 0;
+	    		padding: 20px 0 20px 0;
 	    		text-align: center;
 	    		background-color: #000066;
 	    		color: white;
 	    	}
 	    	.div2{
 	    		width: 100%;
-	    		padding: 50px 0 50px 0;
+	    		padding: 20px 0 20px 0;
 	    		text-align: center;
 	    		background-color: #00e6e6;
 	    		color: white;
 	    	}
 	    	.div3,.div4{
-	    		width: 100%;	    		
+	    		width: 49%;
+	    		float: left;	    		
 	    	}
 	    	.p-style{
 	    		position: relative;
@@ -33,19 +34,28 @@
 	    		width: 50%;
 	    	}
 	    	.input-style{
-	    		width: 50%;
-	    	}	    	
+	    		width: 30%;
+	    	}	
+	    	.content{
+	    		width: 70%;
+	    		margin: 0px auto;
+	    	}
+	    	.content1{
+	    		width: 100%;
+	    	}     	
 	    </style>
 	</head>
 	<body>
 		<div class="div1">
-			<h1 style="color: white">To-Do Utility Software</h1>
+			<h1 style="color: white" >To-Do Utility Software</h1>
 		</div>
 		<div class="div2">
-			<label>Enter the task</label><br><br>
-			<input type="text" name="" id="ques" class="input-style"><br>
+			<label style="font-size: 30px">Enter the task</label><br><br>
+			<input type="text" name="" id="ques" class="input-style">&emsp;
 			<button id="add">Add</button>
 		</div>
+		<div class="content1">
+		<div class="content">
 		<div  class="div3">
 			<h1>
 				Due Tasks
@@ -61,7 +71,7 @@
 			<ul id="done">
 				
 			</ul>
-		</div>
+		</div></div></div>
 		
 		<script src="todo.js"></script>
 	</body>
